@@ -1,0 +1,72 @@
+main>.container {
+  padding: 60px 15px 0;
+}
+
+.plain-link {
+  text-decoration: none;
+}
+
+.plain-link:hover {
+  color: #0d6efd;
+}
+
+
+.glassmorph {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 6px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.neumorph {
+  border-radius: 6px;
+  background: #0d6efd;
+  box-shadow: 8px 8px 16px #0a51bb, -8px -8px 16px #108bff;
+}
+
+.neumorph-one {
+  border-radius: 6px;
+  background: #ffc107;
+  box-shadow: 8px 8px 16px #d9a406, -8px -8px 16px #ffde08;
+}
+
+.neumorph-two {
+  border-radius: 6px;
+  background: #293159;
+  box-shadow: 8px 8px 16px #272c4d, -8px -8px 16px #343b61;
+}
+
+.err_txt {
+  font-size: 12px;
+  color: red;
+}
+
+.porfolio-item {
+  cursor: pointer;
+}
+
+.porfolio-item:hover {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  border-radius: 0.3rem;
+  font-weight: 800;
+}
+
+.boring {
+  text-decoration: none;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.02);  
+}
+
+.profile-picture:hover {
+  transform: scale(1.95);  
+}
